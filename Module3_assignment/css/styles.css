@@ -1,0 +1,73 @@
+body {
+	font-size: 16px;
+	color: #462066;
+	background-color: #FCF4D9;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #462066;
+	border-radius: 0;
+	border:0;
+}
+
+.navbar-brand {
+	padding-top: 10px;
+}
+
+.navbar-brand h1 {
+	font-family: "Lora", serif;
+	color: #FFB85F;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #FFB85F;
+}
+
+.navbar-header button.navbar-toggle {
+  margin-top: 10px;
+}
+
+/**Drop-down menu**/
+
+#nav-list a {
+  color: #FFB85F;
+  line-height: .75;
+  font-size: 1.25em;
+ }
+
+#nav-list a:hover {
+  background: #462066;
+  color: #FF7A5A;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-default .navbar-collapse {
+	background-color: #462066;
+	border-style: none;
+} 
+
+.separator{
+	border-top: 1px solid #FFB85F;
+	padding: 0;
+	margin: 0;
+}
+
+/**Sections**/
+.section {
+	background-color: #F9CDB4;
+	padding: 3px 15px 0;
+}
